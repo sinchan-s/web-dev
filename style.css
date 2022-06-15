@@ -1,3 +1,9 @@
+body::before{
+    display: block;
+    content: "";
+    height: 56px;
+}
+
 @media(min-width: 768px){
     .input-area{
         width: 50%
