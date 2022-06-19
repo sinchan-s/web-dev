@@ -4,8 +4,24 @@ body::before{
     height: 56px;
 }
 
+@font-face {
+    font-family: Arista;
+    src: url(fonts/Arista-Pro-Alternate-Fat-trial.ttf);
+}
+
 @media(min-width: 768px){
     .input-area{
         width: 50%
     }
+}
+
+.site-logo{
+    font-family: Arista, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: aliceblue;
+}
+
+.img-block{
+    border: 0px;
 }

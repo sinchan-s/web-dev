@@ -17,7 +17,7 @@
     <!-- navbar section -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">SinXfactor</a>
+            <div class="site-logo">sinxfactor</div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -26,27 +26,92 @@
             <div class="hstack collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#cards" class="nav-link">Cards</a>
+                        <a href="#latest" class="nav-link">Latest</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#lexus" class="nav-link">Lexus</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#hangers" class="nav-link">Hangers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#faqs" class="nav-link">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#people" class="nav-link">People</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#posts" class="nav-link">Posts</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- article showcase section -->
+    <section class="bg-dark text-light p-4 text-center text-md-start p-lg-0 pt-lg-5">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div>
+                    <em>Featured Article</em>
+                    <h1>Life-Cycle of<span class="text-primary"> Data</span></h1>
+                    <p class="lead my-4">
+                        This article talks about the different phases of the data life cycle which includes....
+                    </p>
+                    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">Continue reading....</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-md-block img-block" src="img/data life-cycle.png" alt="image-placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter section -->
+    <section class="bg-primary text-light p-4">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Subscribe for weekly newsletter</h3>
+
+                <div class="input-group input-area">
+                    <input type="text" class="form-control" placeholder="you@email.com">
+                    <button class="btn btn-dark btn-lg" type="button">Subscribe</button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- article box section -->
+    <section class="p-5" id="cards">
+        <div class="container">
+            <div class="row text-center g-5">
+                <div class="col-md">
+                    <div class="card bg-info text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-boxes"></i>
+                            </div>
+                            <h3 class="card-title">Life Cycle of Data</h3>
+                            <p class="card-text">
+                                This article talks about the different phases of the data life cycle which includes....
+                            </p>
+                            <a href="https://medium.com/@sinchan.s/life-cycle-of-data-6eecc50276c9" target="_blank" class="btn btn-dark">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-motherboard-fill"></i>
+                            </div>
+                            <h3 class="card-title">Machine Learning in brief</h3>
+                            <p class="card-text">
+                                Machine learning is the science of programming computers so they can learn from data....
+                            </p>
+                            <a href="https://sinxfactor.github.io/" target="_blank" class="btn btn-light">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="p-4 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 SinXfactor</p>
+            <a href="#" class="position-absolute bottom-0 end-0 py-4 px-2">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
