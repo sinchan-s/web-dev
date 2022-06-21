@@ -4,6 +4,11 @@ body::before{
     height: 56px;
 }
 
+.navbar-sep{
+    border-bottom: 10px;
+    border-color: beige;
+}
+
 @font-face {
     font-family: Arista;
     src: url(fonts/Arista-Pro-Alternate-Fat-trial.ttf);
