@@ -4,7 +4,8 @@
   "description": "Bootstrap5 website with pyscript-js framework.\r 1. [bootstrap-demo-site](https://github.com/SinXfactor/py-boot/blob/main/index.html):- \r  Simple demo site based on Bootstrap v5.2 framework. Specific components/classes used:\r  * `navbar` - responsive navigation header with `navbar-expand-md` for breakpoint at medium screen size, `bg-dark` for dark background, `navbar-dark` for white text on black back, `fixed-top` for sticky nav bar, `navbar-brand` for site logo/name, `navbar-toggler` for hamburger menu button toggle.\r  * `card` - \r  * `bi` - \r  * `accordian` -",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
     "url": "https://github.com/SinXfactor/py-boot/issues"
   },
   "homepage": "https://github.com/SinXfactor/py-boot#readme",
-  "dependencies": {
-    "tailwindcss": "^3.1.3"
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
   }
 }
