@@ -10,7 +10,10 @@ module.exports = {
     },
     extend: {
       colors:{
-        brightRed: 'hsl(12, 88%, 59%)',
+        'brightRed': 'hsl(12, 88%, 59%)',
+      },
+      fontFamily:{
+        'allura': ["Allura", 'sans-serif']
       }
     },
   },

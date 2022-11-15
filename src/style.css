@@ -1,7 +1,7 @@
 body::before{
     display: block;
     content: "";
-    height: 56px;
+    margin: auto;
 }
 
 .navbar-sep{
@@ -10,8 +10,8 @@ body::before{
 }
 
 @font-face {
-    font-family: Arista;
-    src: url(fonts/Arista-Pro-Alternate-Fat-trial.ttf);
+    font-family: Allura;
+    src: url(../fonts/Allura-Regular.ttf);
 }
 
 @media(min-width: 768px){
