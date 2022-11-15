@@ -13,7 +13,8 @@ module.exports = {
         'brightRed': 'hsl(12, 88%, 59%)',
       },
       fontFamily:{
-        'allura': ["Allura", 'sans-serif']
+        'allura': ["Allura", 'sans-serif'],
+        'poppins': ["Poppins", 'sans-serif']
       }
     },
   },
