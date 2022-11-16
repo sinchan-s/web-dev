@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       colors:{
         'brightRed': 'hsl(12, 88%, 59%)',
+        'theme': '#f0f000'
       },
       fontFamily:{
         'allura': ["Allura", 'sans-serif'],

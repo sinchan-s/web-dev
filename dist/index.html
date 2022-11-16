@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="../src/style.css">
     <title>Sinchan</title>
 </head>
-<body>
+<body class="container mx-auto">
     <!--navbar-->
-    <nav class="relative container mx-auto p-6">
+    <nav class="relative p-5">
         <div class="flex justify-between">
             <!--logo-->
             <div class="pb-2 ">
-                <h1 class="text-6xl text-gray-800 font-normal font-allura">Sinchan.S</h1>
+                <h1 class="text-6xl text-gray-800 font-normal font-allura selection:bg-violet-500 selection:text-gray-50">Sinchan.S</h1>
             </div>
             <!--links-->
             <div class="hidden md:flex space-x-12 font-semibold items-center">
@@ -22,13 +22,21 @@
                 <a href="#" class="hover:text-violet-600">Blogs</a>
                 <a href="#" class="hover:text-violet-600 ">Utilities</a>
                 <!--button-->
-                <a href="" class="p-2 px-6 pt-2 text-white bg-violet-600 rounded-full align-baseline font-semibold border-2 border-violet-600 hover:transition-opacity hover:bg-violet-50 hover:text-violet-700">Connect</a>
+                <a href="#" class="transition p-2 px-6 pt-2 text-black bg-violet-200 align-baseline border-2 border-black hover:transition-opacity hover:bg-violet-50 hover:text-black ease-in-out delay-100 box-shadow-black focus:shadow-none focus:translate-x-1 focus:translate-y-1 visited:text-black">Connect</a>
             </div>
         </div>
     </nav>
 
+    <section>
+        <div class="flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-1 space-y-0 md:space-y-0 bg-theme rounded">
+            <h3>
+                Portfolio section
+            </h3>
+        </div>
+    </section>
+
     <section id="featured">
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-1 space-y-0 md:space-y-0 bg-violet-500 rounded">
+        <div class="flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-1 space-y-0 md:space-y-0 bg-violet-500 rounded">
             <div class="flex flex-col mb-32 space-y-4 md:w-1/2">
                 <h3 class="text-white font-medium mt-4 text-center md:text-left"><em>Featured Article</em></h4>
                 <h1 class="max-w-md text-white text-4xl font-bold text-center md:text-5xl md:text-left">Life Cycle of Data</h1>
@@ -36,7 +44,7 @@
                     This article talks about the different phases of the data life cycle which includes data generation to data interpretation.
                 </p> 
                 <div class="flex justify-items-center md:justify-items-start">
-                    <a href="#" class="p-3 md:mr-auto px-6 pt-3 hover:text-white rounded-full font-semibold bg-violet-50 hover:bg-violet-500 border-2 text-violet-700">Continue Reading...</a> 
+                    <a href="#" class="p-3 md:mr-auto px-6 pt-3 hover:text-white font-semibold bg-violet-50 hover:bg-violet-500 border-2 text-violet-700">Continue Reading...</a> 
                 </div>
         </div>
         <div class="md:w-1/2">
