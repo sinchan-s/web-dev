@@ -6,4 +6,7 @@
     .box-shadow-black {
       box-shadow: 0.125rem 0.125rem 0 0px #000;
     }
+    .box-shadow-white {
+      box-shadow: 0.125rem 0.125rem 0 0px #fff;
+    }
   }
